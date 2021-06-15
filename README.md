@@ -3,7 +3,7 @@
 
  ### 📚 Build websites with Python & Django (WILLIAM S. VINCENT)
     - Conclusion:
-    We’ve now built five different web applications from scratch 
+    I’ve now built five different web applications from scratch 
     and covered all the major features of Django:
     templates, views, urls, users, models, security, testing, 
     and deployment + CRUD functionality. Now I have the
