@@ -152,9 +152,9 @@ TIME_ZONE = 'America/New_York' # new
 # config/settings.py
 EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend' # new
 # config/settings.py
-DEFAULT_FROM_EMAIL = 'alimov.abdullokh8@gmail.com'
+DEFAULT_FROM_EMAIL = env.str("DEFAULT_FROM_EMAIL")
 EMAIL_HOST = 'smtp.sendgrid.net'
 EMAIL_HOST_USER = 'apikey'
-EMAIL_HOST_PASSWORD = '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'
+EMAIL_HOST_PASSWORD = env.str("SECRET_KEY")
 EMAIL_PORT = 587
 EMAIL_USE_TLS = True
